@@ -36,3 +36,28 @@ Die lokalen JSON-Dateien bleiben für den Offline-/Fallback-Modus erhalten.
 
 ## Quellen und Transparenz
 Die Bestandsdaten stammen aus der vorherigen Atlas-Version. Nicht verifizierte Inhalte nicht als bestätigte Nutzende zählen. Keine automatische Aktualisierung von LinkedIn oder Vergabeportalen.
+
+
+## Google-Sheets-Zeilenreferenz
+
+Jeder über Google Sheets geladene Datensatz erhält automatisch `sheetReference: { tab, row, url }`. Bei mehrfach zugeordneten Organisationen werden alle Referenzen in `sheetReferences` gesammelt. Der Link führt zum Spreadsheet und zur jeweiligen Tab-/Zeilenadresse (`#range='Tab'!A2`). Die Zeile wird beim CSV-Import ab Zeile 2 gezählt (Zeile 1 ist die Kopfzeile). Bei lokaler JSON-Nutzung gibt es keinen Sheet-Link. Die Spalten müssen dafür nicht erweitert werden.
+
+
+## v13 – Datenherkunft und Trefferliste
+- Google-Sheets-Einträge zeigen Tab und Zeile als Direktlink.
+- Lokale JSON-Fallbacks zeigen ihre lokale Datei als Datenherkunft; es wird kein Sheet-Link erfunden.
+- Öffentliche Vergaben erscheinen ausschließlich in den normalen Suchergebnissen.
+- Hinweise, GitLab-Status und Projektinformationen stehen unter den Suchergebnissen.
+- Bei nicht sichtbaren Sheet-Links `config.js` (ID) und die Browser-Konsole auf Fallback-Warnungen prüfen.
+
+
+## v14 – Blatt-IDs und Quellen
+
+`config.js` enthält neben `tabs` jetzt `tabGids`: Dort die numerische `gid` jedes Google-Sheets-Tabs aus dessen URL hinterlegen. Beispiel `providers: 209579919`. Die Einträge verlinken anschließend `edit?gid=209579919#gid=209579919&range=3:3`. Ohne konfigurierte `gid` wird nur Tab und Zeile angezeigt (kein falscher Link). Die `gid` ist nicht die Spreadsheet-ID.
+
+Quellen sind in Trefferkarten ausklappbar. Mock-Einträge werden nur gezeigt, wenn keine realen Treffer für die aktuelle Suche/Filterkombination existieren.
+
+
+## Konfiguration ab v15
+
+`config.js` enthält die Spreadsheet-ID und pro Kategorie `tabs.<key>.tabName` und `tabs.<key>.tabID`. Die bisher getrennte `tabGids`-Struktur entfällt. Nur die vom Nutzer belegte gid `209579919` für IT-Dienstleister ist gesetzt. Alle anderen tabIDs sind `null` und müssen anhand der tatsächlichen Blatt-URLs ergänzt werden. Der CSV-Abruf nutzt den Blattnamen; die Direktlinks nutzen die gid.
