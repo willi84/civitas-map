@@ -61,3 +61,16 @@ Quellen sind in Trefferkarten ausklappbar. Mock-Einträge werden nur gezeigt, we
 ## Konfiguration ab v15
 
 `config.js` enthält die Spreadsheet-ID und pro Kategorie `tabs.<key>.tabName` und `tabs.<key>.tabID`. Die bisher getrennte `tabGids`-Struktur entfällt. Nur die vom Nutzer belegte gid `209579919` für IT-Dienstleister ist gesetzt. Alle anderen tabIDs sind `null` und müssen anhand der tatsächlichen Blatt-URLs ergänzt werden. Der CSV-Abruf nutzt den Blattnamen; die Direktlinks nutzen die gid.
+
+
+## v17 – Bundesländer-Auswahl
+
+Oberhalb der Karte sind 16 Bundesländer als auswählbare Kacheln mit Namen und Wikipedia-Vorschaubildern dargestellt. Ein Klick filtert Suchergebnisse und Marker; mehrere Länder können gleichzeitig gewählt werden. „Alle“ setzt die Auswahl zurück. Die Bilder werden zur Laufzeit von der deutschsprachigen Wikipedia geladen; ohne Zugriff erscheint ein neutrales Wappen-Symbol. Hinweis: Wikipedia-Seitenvorschaubilder sind nicht in jedem Fall amtliche Landeswappen.
+
+Geändert: `index.html`, `app.js`, `README.md`.
+
+
+## v18
+- Bundesländer ohne belegte Datensätze sind ausgegraut und nicht auswählbar (Mock zählt nicht).
+- Bundesland-Wappen erscheinen klein in Suchergebnissen, soweit Wikipedia ein Bild liefert.
+- Getrennte, kompakte Ausklappfelder für Belegquellen und Google-Sheets-Zeilenreferenzen.
