@@ -1,0 +1,40 @@
+[
+  {
+    "url": "https://de.linkedin.com/posts/mathias-renner-9b83a069_gewinner-des-open-source-wettbewerbs-2025-activity-7381836158659633152-fTtb",
+    "topic": "Community-Organisationen",
+    "organizations": [
+      "Kasseler Verkehrs- und Versorgungs-GmbH",
+      "das Stadtwerk Regensburg GmbH",
+      "items GmbH",
+      "Stadtwerke Münster GmbH"
+    ],
+    "evidence": "community_mention"
+  },
+  {
+    "url": "https://de.linkedin.com/posts/civitas-connect_community-datenplattform-kooperation-activity-7190997112526962688-mzLc",
+    "topic": "Kommunale Datenplattform",
+    "organizations": [
+      "Stadtwerke Lübeck Gruppe",
+      "Stadtwerke Münster GmbH",
+      "Stadt Paderborn",
+      "Stadt Bamberg"
+    ],
+    "evidence": "mention"
+  },
+  {
+    "url": "https://de.linkedin.com/posts/items-gmbh_m%C3%BCnster-versorgungswirtschaft-itemsnet-activity-7331575373484204033-EexK",
+    "topic": "items Veranstaltung mit CIVITAS/CORE",
+    "organizations": [
+      "items GmbH"
+    ],
+    "evidence": "project_discussion"
+  },
+  {
+    "url": "https://de.linkedin.com/posts/ki-p-gmbh_civicon2026-activity-7500813600924540928-eqQG",
+    "topic": "CIVI/CON Teilnahme",
+    "organizations": [
+      "KI-P GmbH"
+    ],
+    "evidence": "event_interest"
+  }
+]

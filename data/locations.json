@@ -1,0 +1,829 @@
+[
+  {
+    "name": "Stadt Kassel",
+    "city": "Kassel",
+    "lat": 51.315,
+    "lon": 9.497,
+    "category": "kommune",
+    "roles": [
+      "Nutzende",
+      "Finanzierung CORE 2"
+    ],
+    "url": "https://www.kassel.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Hessen",
+    "postalCodes": [],
+    "coreVersion": "2-development",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.kassel.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.kassel.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Stadt Münster",
+    "city": "Münster",
+    "lat": 51.961,
+    "lon": 7.626,
+    "category": "kommune",
+    "roles": [
+      "Nutzende",
+      "Finanzierung CORE 2"
+    ],
+    "url": "https://www.stadt-muenster.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Nordrhein-Westfalen",
+    "postalCodes": [],
+    "coreVersion": "2-development",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.stadt-muenster.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.stadt-muenster.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Stadt Osnabrück",
+    "city": "Osnabrück",
+    "lat": 52.279,
+    "lon": 8.047,
+    "category": "kommune",
+    "roles": [
+      "Nutzende",
+      "Finanzierung CORE 2"
+    ],
+    "url": "https://www.osnabrueck.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Niedersachsen",
+    "postalCodes": [],
+    "coreVersion": "2-development",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.osnabrueck.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.osnabrueck.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Stadt Paderborn",
+    "city": "Paderborn",
+    "lat": 51.719,
+    "lon": 8.754,
+    "category": "kommune",
+    "roles": [
+      "Nutzende",
+      "Finanzierung CORE 2"
+    ],
+    "url": "https://www.paderborn.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Nordrhein-Westfalen",
+    "postalCodes": [],
+    "coreVersion": "2-development",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.paderborn.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.paderborn.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Stadt Bamberg",
+    "city": "Bamberg",
+    "lat": 49.892,
+    "lon": 10.891,
+    "category": "kommune",
+    "roles": [
+      "Nutzende",
+      "Finanzierung CORE 2"
+    ],
+    "url": "https://www.stadt.bamberg.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Bayern",
+    "postalCodes": [],
+    "coreVersion": "2-development",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.stadt.bamberg.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.stadt.bamberg.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Stadt Haßfurt",
+    "city": "Haßfurt",
+    "lat": 50.032,
+    "lon": 10.507,
+    "category": "kommune",
+    "roles": [
+      "Nutzende",
+      "Finanzierung CORE 2"
+    ],
+    "url": "https://www.hassfurt.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Bayern",
+    "postalCodes": [],
+    "coreVersion": "2-development",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.hassfurt.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.hassfurt.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Stadt Mönchengladbach",
+    "city": "Mönchengladbach",
+    "lat": 51.195,
+    "lon": 6.442,
+    "category": "kommune",
+    "roles": [
+      "Nutzende",
+      "Finanzierung CORE 2"
+    ],
+    "url": "https://www.moenchengladbach.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Nordrhein-Westfalen",
+    "postalCodes": [],
+    "coreVersion": "2-development",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.moenchengladbach.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.moenchengladbach.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Stadt Jena",
+    "city": "Jena",
+    "lat": 50.928,
+    "lon": 11.589,
+    "category": "kommune",
+    "roles": [
+      "Finanzierung CORE 2"
+    ],
+    "url": "https://www.jena.de",
+    "source": "https://civitasconnect.digital/civitas-core-2-0-fuer-den-produktiven-einsatz-veroeffentlicht/",
+    "mock": false,
+    "state": "",
+    "postalCodes": [],
+    "coreVersion": "2-development",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.jena.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.jena.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Stadt Regensburg",
+    "city": "Regensburg",
+    "lat": 49.013,
+    "lon": 12.102,
+    "category": "kommune",
+    "roles": [
+      "Nutzende"
+    ],
+    "url": "https://www.regensburg.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Bayern",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.regensburg.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.regensburg.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Stadt Bonn",
+    "city": "Bonn",
+    "lat": 50.737,
+    "lon": 7.098,
+    "category": "kommune",
+    "roles": [
+      "Nutzende"
+    ],
+    "url": "https://www.bonn.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Nordrhein-Westfalen",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.bonn.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.bonn.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Smart City Kempten",
+    "city": "Kempten (Allgäu)",
+    "lat": 47.727,
+    "lon": 10.313,
+    "category": "kommune",
+    "roles": [
+      "Nutzende"
+    ],
+    "url": "https://www.kempten.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.kempten.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.kempten.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Universität Bamberg",
+    "city": "Bamberg",
+    "lat": 49.893,
+    "lon": 10.888,
+    "category": "oeffentlich",
+    "roles": [
+      "Nutzende"
+    ],
+    "url": "https://www.uni-bamberg.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Bayern",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.uni-bamberg.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.uni-bamberg.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Stadtwerke Gießen",
+    "city": "Gießen",
+    "lat": 50.584,
+    "lon": 8.679,
+    "category": "betrieb",
+    "roles": [
+      "Nutzende"
+    ],
+    "url": "https://www.stadtwerke-giessen.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Hessen",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.stadtwerke-giessen.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.stadtwerke-giessen.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "SWO Netz GmbH",
+    "city": "Osnabrück",
+    "lat": 52.279,
+    "lon": 8.047,
+    "category": "betrieb",
+    "roles": [
+      "Nutzende"
+    ],
+    "url": "https://www.swo-netz.de",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Niedersachsen",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.swo-netz.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.swo-netz.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Westfalen Weser",
+    "city": "Paderborn",
+    "lat": 51.719,
+    "lon": 8.754,
+    "category": "betrieb",
+    "roles": [
+      "Nutzende"
+    ],
+    "url": "https://www.westfalenweser.com",
+    "source": "https://civitasconnect.digital/civitas-core-nutzer/",
+    "mock": false,
+    "state": "Nordrhein-Westfalen",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.westfalenweser.com&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.westfalenweser.com",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Beispiel: Integrationsdienstleister",
+    "city": "Berlin",
+    "lat": 52.52,
+    "lon": 13.405,
+    "category": "dienstleister",
+    "roles": [
+      "Beispieldatensatz"
+    ],
+    "url": null,
+    "source": null,
+    "mock": true,
+    "state": "Berlin",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE"
+  },
+  {
+    "name": "Beispiel: Öffentlicher Auftrag",
+    "city": "Leipzig",
+    "lat": 51.34,
+    "lon": 12.375,
+    "category": "auftrag",
+    "roles": [
+      "Beispieldatensatz – keine echte Vergabe"
+    ],
+    "url": null,
+    "source": null,
+    "mock": true,
+    "state": "Sachsen",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE"
+  },
+  {
+    "name": "Beispiel: Feature-Entwicklung",
+    "city": "Hamburg",
+    "lat": 53.551,
+    "lon": 9.994,
+    "category": "entwicklung",
+    "roles": [
+      "Beispieldatensatz – kein zugeordnetes Issue"
+    ],
+    "url": null,
+    "source": null,
+    "mock": true,
+    "state": "Hamburg",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE"
+  },
+  {
+    "name": "Stadtwerke Münster GmbH",
+    "city": "Münster",
+    "lat": 51.961,
+    "lon": 7.626,
+    "category": "betrieb",
+    "roles": [
+      "Civitas Connect Gründungsmitglied (2020), CORE-Mitgliedschaft nicht separat bestätigt"
+    ],
+    "url": "https://www.stadtwerke-muenster.de",
+    "source": "https://www.civitasconnect.digital/civitas-connect-kooperationsplattform-fuer-smart-city-anwendungen-ist-offiziell-gestartet/",
+    "mock": false,
+    "state": "Nordrhein-Westfalen",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "additionalSources": [
+      "https://de.linkedin.com/posts/civitas-connect_community-datenplattform-kooperation-activity-7190997112526962688-mzLc"
+    ],
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.stadtwerke-muenster.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.stadtwerke-muenster.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "items GmbH",
+    "city": "Münster",
+    "lat": 51.961,
+    "lon": 7.626,
+    "category": "dienstleister",
+    "roles": [
+      "Civitas Connect Gründungsmitglied (2020), keine CORE-Auftragszuordnung belegt"
+    ],
+    "url": "https://www.itemsnet.de",
+    "source": "https://www.civitasconnect.digital/civitas-connect-kooperationsplattform-fuer-smart-city-anwendungen-ist-offiziell-gestartet/",
+    "mock": false,
+    "state": "Nordrhein-Westfalen",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.itemsnet.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.itemsnet.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "regio iT",
+    "city": "Aachen",
+    "lat": 50.776,
+    "lon": 6.083,
+    "state": "Nordrhein-Westfalen",
+    "postalCodes": [],
+    "category": "dienstleister",
+    "roles": [
+      "Im openCode-Softwareeintrag als beteiligte Organisation genannt; Dienstleistungsauftrag nicht belegt"
+    ],
+    "url": "https://www.regioit.de",
+    "source": "https://opencode.de/de/software/civitas-core-2834",
+    "mock": false,
+    "coreVersion": "unknown",
+    "country": "DE",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.regioit.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.regioit.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Data Hub Berlin – Technologiestiftung Berlin",
+    "city": "Berlin",
+    "state": "Berlin",
+    "lat": 52.52,
+    "lon": 13.405,
+    "category": "oeffentlich",
+    "roles": [
+      "Pilotprojekt",
+      "Senatskanzlei Berlin",
+      "Technologiestiftung Berlin"
+    ],
+    "coreVersion": "unspecified",
+    "country": "DE",
+    "postalCodes": [],
+    "url": "https://data-hub.berlin/",
+    "source": "https://gemeinsamdigital.berlin.de/de/massnahmen-der-strategie/datahubberlin/",
+    "mock": false,
+    "notes": "Pilot seit 2025, Version im offiziellen Projekttext nicht eindeutig benannt.",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=data-hub.berlin&sz=128",
+      "source": "website-favicon",
+      "website": "https://data-hub.berlin",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "name": "Kasseler Verkehrs- und Versorgungs-GmbH",
+    "city": "Kassel",
+    "lat": 51.315,
+    "lon": 9.497,
+    "state": "Hessen",
+    "category": "betrieb",
+    "roles": [
+      "CIVITAS-Community genannt"
+    ],
+    "source": "https://de.linkedin.com/posts/mathias-renner-9b83a069_gewinner-des-open-source-wettbewerbs-2025-activity-7381836158659633152-fTtb",
+    "url": "",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "mock": false,
+    "evidence": "community_mention",
+    "confidence": "lead"
+  },
+  {
+    "name": "das Stadtwerk Regensburg GmbH",
+    "city": "Regensburg",
+    "lat": 49.013,
+    "lon": 12.101,
+    "state": "Bayern",
+    "category": "betrieb",
+    "roles": [
+      "CIVITAS-Community genannt"
+    ],
+    "source": "https://de.linkedin.com/posts/mathias-renner-9b83a069_gewinner-des-open-source-wettbewerbs-2025-activity-7381836158659633152-fTtb",
+    "url": "",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "mock": false,
+    "evidence": "community_mention",
+    "confidence": "lead"
+  },
+  {
+    "name": "Stadtwerke Lübeck Gruppe",
+    "city": "Lübeck",
+    "lat": 53.866,
+    "lon": 10.687,
+    "state": "Schleswig-Holstein",
+    "category": "betrieb",
+    "roles": [
+      "CIVITAS-Community genannt"
+    ],
+    "source": "https://de.linkedin.com/posts/mathias-renner-9b83a069_gewinner-des-open-source-wettbewerbs-2025-activity-7381836158659633152-fTtb",
+    "url": "",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "mock": false,
+    "evidence": "community_mention",
+    "confidence": "lead"
+  },
+  {
+    "name": "KI-P GmbH",
+    "city": "",
+    "lat": null,
+    "lon": null,
+    "state": "",
+    "category": "dienstleister",
+    "roles": [
+      "CIVI/CON-Interesse (kein Nutzungsnachweis)"
+    ],
+    "source": "https://de.linkedin.com/posts/ki-p-gmbh_civicon2026-activity-7500813600924540928-eqQG",
+    "url": "",
+    "postalCodes": [],
+    "coreVersion": "unknown",
+    "country": "DE",
+    "mock": false,
+    "evidence": "event_interest",
+    "confidence": "lead"
+  },
+  {
+    "id": "provider-kernblick-gmbh",
+    "name": "KERNBLICK GmbH",
+    "city": "Paderborn",
+    "state": "Nordrhein-Westfalen",
+    "postalCodes": [
+      "33102"
+    ],
+    "lat": 51.72,
+    "lon": 8.75,
+    "category": "dienstleister",
+    "roles": [
+      "CORE 1/2, Bonn, Regensburg, Osnabrück"
+    ],
+    "url": "https://www.kernblick.de/",
+    "source": "https://www.kernblick.de/rechtliches/impressum/",
+    "mock": false,
+    "evidence": "confirmed",
+    "coreVersion": "unknown",
+    "country": "DE",
+    "locationPrecision": "city-approximate",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.kernblick.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.kernblick.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "id": "provider-port-zero-gmbh",
+    "name": "Port Zero GmbH",
+    "city": "Berlin",
+    "state": "Berlin",
+    "postalCodes": [
+      "10999"
+    ],
+    "lat": 52.494,
+    "lon": 13.427,
+    "category": "dienstleister",
+    "roles": [
+      "Bonn, Bamberg, CORE 2 Security"
+    ],
+    "url": "https://port-zero.de/de/urban-data",
+    "source": "https://port-zero.de/de/urban-data",
+    "mock": false,
+    "evidence": "confirmed",
+    "coreVersion": "unknown",
+    "country": "DE",
+    "locationPrecision": "city-approximate",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=port-zero.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://port-zero.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "id": "provider-frachtwerk-gmbh",
+    "name": "Frachtwerk GmbH",
+    "city": "Berlin",
+    "state": "Berlin",
+    "postalCodes": [
+      "10178"
+    ],
+    "lat": 52.523,
+    "lon": 13.407,
+    "category": "dienstleister",
+    "roles": [
+      "CORE 2 Entwicklung"
+    ],
+    "url": "https://frachtwerk.de/",
+    "source": "https://frachtwerk.de/frachtwerk-gewinnt-smart-city-ausschreibung/",
+    "mock": false,
+    "evidence": "confirmed",
+    "coreVersion": "unknown",
+    "country": "DE",
+    "locationPrecision": "city-approximate",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=frachtwerk.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://frachtwerk.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "id": "provider-jut-so-gmbh",
+    "name": "jut-so GmbH",
+    "city": "Berlin",
+    "state": "Berlin",
+    "postalCodes": [
+      "10178"
+    ],
+    "lat": 52.525,
+    "lon": 13.415,
+    "category": "dienstleister",
+    "roles": [
+      "CORE 2 UX/UI"
+    ],
+    "url": "https://jut-so.de/",
+    "source": "https://jut-so.de/impressum/",
+    "mock": false,
+    "evidence": "confirmed",
+    "coreVersion": "unknown",
+    "country": "DE",
+    "locationPrecision": "city-approximate",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=jut-so.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://jut-so.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "id": "provider-adesso-se",
+    "name": "adesso SE",
+    "city": "Dortmund",
+    "state": "Nordrhein-Westfalen",
+    "postalCodes": [],
+    "lat": 51.51,
+    "lon": 7.47,
+    "category": "dienstleister",
+    "roles": [
+      "CORE 2 Datenfluss"
+    ],
+    "url": "https://www.adesso.de/",
+    "source": "https://smartcity.bamberg.de/ein-weiterer-schritt-zu-einer-smarten-datenplattform-ist-gemacht/",
+    "mock": false,
+    "evidence": "confirmed",
+    "coreVersion": "unknown",
+    "country": "DE",
+    "locationPrecision": "city-approximate",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.adesso.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.adesso.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "id": "provider-stetig-and-wandel",
+    "name": "Stetig & Wandel",
+    "city": "Berlin",
+    "state": "Berlin",
+    "postalCodes": [
+      "10178"
+    ],
+    "lat": 52.523,
+    "lon": 13.407,
+    "category": "dienstleister",
+    "roles": [
+      "CORE 1, OWL-IT"
+    ],
+    "url": "https://stetigwandel.de/smart-city/",
+    "source": "https://stetigwandel.de/smart-city/",
+    "mock": false,
+    "evidence": "confirmed",
+    "coreVersion": "unknown",
+    "country": "DE",
+    "locationPrecision": "city-approximate",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=stetigwandel.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://stetigwandel.de",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "id": "provider-data-in-motion-consulting-gmbh",
+    "name": "Data In Motion Consulting GmbH",
+    "city": "Jena",
+    "state": "Thüringen",
+    "postalCodes": [
+      "07745"
+    ],
+    "lat": 50.917,
+    "lon": 11.58,
+    "category": "dienstleister",
+    "roles": [
+      "Als Entwicklungsbeteiligter genannt; konkreter Auftrag ungeprüft"
+    ],
+    "url": "https://datainmotion.com/",
+    "source": "https://datainmotion.com/de/imprint/",
+    "mock": false,
+    "evidence": "candidate",
+    "coreVersion": "unknown",
+    "country": "DE",
+    "locationPrecision": "city-approximate",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=datainmotion.com&sz=128",
+      "source": "website-favicon",
+      "website": "https://datainmotion.com",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "id": "provider-codestryke-gmbh",
+    "name": "codestryke GmbH",
+    "city": "München",
+    "state": "Bayern",
+    "postalCodes": [
+      "80637"
+    ],
+    "lat": 48.15,
+    "lon": 11.54,
+    "category": "dienstleister",
+    "roles": [
+      "Als Entwicklungsbeteiligter genannt; konkreter Auftrag ungeprüft"
+    ],
+    "url": "https://codestryke.com/",
+    "source": "https://codestryke.com/impressum/",
+    "mock": false,
+    "evidence": "candidate",
+    "coreVersion": "unknown",
+    "country": "DE",
+    "locationPrecision": "city-approximate",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=codestryke.com&sz=128",
+      "source": "website-favicon",
+      "website": "https://codestryke.com",
+      "fallback": "category-icon"
+    }
+  },
+  {
+    "id": "provider-fraunhofer-iese",
+    "name": "Fraunhofer IESE",
+    "city": "Kaiserslautern",
+    "state": "Rheinland-Pfalz",
+    "postalCodes": [
+      "67663"
+    ],
+    "lat": 49.43,
+    "lon": 7.75,
+    "category": "dienstleister",
+    "roles": [
+      "Als Entwicklungsbeteiligter genannt; konkreter Auftrag ungeprüft"
+    ],
+    "url": "https://www.iese.fraunhofer.de/",
+    "source": "https://www.iese.fraunhofer.de/de/impressum.html",
+    "mock": false,
+    "evidence": "candidate",
+    "coreVersion": "unknown",
+    "country": "DE",
+    "locationPrecision": "city-approximate",
+    "logo": {
+      "url": "https://www.google.com/s2/favicons?domain=www.iese.fraunhofer.de&sz=128",
+      "source": "website-favicon",
+      "website": "https://www.iese.fraunhofer.de",
+      "fallback": "category-icon"
+    }
+  }
+]

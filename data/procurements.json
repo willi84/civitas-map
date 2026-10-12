@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-12",
+  "records": [
+    {
+      "id": "ted-670742-2026-lot8",
+      "title": "RV GeoOpenSource – Los 8: Pflege und Wartung Civitas Core",
+      "buyer": "Dataport AöR",
+      "city": "Altenholz",
+      "state": "Schleswig-Holstein",
+      "postalCodes": [
+        "24161"
+      ],
+      "version": "unknown",
+      "status": "open",
+      "publishedAt": "2026-09-30",
+      "deadline": "2026-11-03T11:00:00+01:00",
+      "tedId": "670742-2026",
+      "lot": "LOT-0008",
+      "source": "https://zgdl.ausschreibungen-deutschland.de/2551043_Deutschland__IT-Dienste_Beratung_Software-Entwicklung_Internet_und_Hilfestellung__RV_2026_Altenholz",
+      "evidence": "confirmed",
+      "notes": "Rahmenvertragsausschreibung, kein Zuschlag."
+    },
+    {
+      "id": "ted-690335-2025",
+      "title": "Weiterentwicklung und Wartung CIVITAS/CORE Version 1",
+      "buyer": "Stadt Regensburg",
+      "city": "Regensburg",
+      "state": "Bayern",
+      "version": "1",
+      "status": "published",
+      "tedId": "690335-2025",
+      "source": "https://files.auftrag-select.com/file/auftrag-select-public/pdfs/7117034/bekanntmachung.pdf",
+      "evidence": "confirmed",
+      "notes": "Beinhaltet Erweiterungen und Migrationsvorbereitung V1 nach V2. Zuschlag nicht geprüft."
+    }
+  ],
+  "portals": [
+    "https://www.dtvp.de/",
+    "https://www.evergabe-online.de/",
+    "https://ted.europa.eu/"
+  ],
+  "note": "Bekanntmachungen sind keine vergebenen Aufträge. Nur konkret nachgewiesene CIVITAS-Bezüge."
+}

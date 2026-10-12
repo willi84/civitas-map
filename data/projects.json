@@ -1,0 +1,205 @@
+{
+  "updated": "2026-10-12",
+  "records": [
+    {
+      "id": "bonn-udm",
+      "title": "Urban Data Management Bonn",
+      "city": "Bonn",
+      "state": "Nordrhein-Westfalen",
+      "coreVersion": "1 / Migration",
+      "status": "pilot",
+      "customerNames": [
+        "Bundesstadt Bonn"
+      ],
+      "providerNames": [
+        "KERNBLICK GmbH",
+        "Port Zero GmbH",
+        "Frachtwerk GmbH",
+        "Stetig && Wandel"
+      ],
+      "sources": [
+        "https://www.kernblick.de/",
+        "https://port-zero.de/de/urban-data",
+        "https://frachtwerk.de/digitale-staedte-und-regionen/",
+        "https://stetigwandel.de/smart-city/#referenzen"
+      ],
+      "lat": 50.737,
+      "lon": 7.098,
+      "notes": "KERNBLICK nennt CORE-basiertes MVP; Port Zero nennt Plattformwechsel; Frachtwerk zeigt eine Bonn-Demo. Produktive Version nicht unabhängig bestätigt.",
+      "evidence": "provider_reference",
+      "mock": false
+    },
+    {
+      "id": "bamberg-platform",
+      "title": "Weiterentwicklung Datenplattform Bamberg",
+      "city": "Bamberg",
+      "state": "Bayern",
+      "coreVersion": "1 / 2-development",
+      "status": "development",
+      "customerNames": [
+        "Stadt Bamberg"
+      ],
+      "providerNames": [
+        "Port Zero GmbH",
+        "Frachtwerk GmbH",
+        "KERNBLICK GmbH",
+        "adesso SE",
+        "jut-so GmbH"
+      ],
+      "sources": [
+        "https://smartcity.bamberg.de/ein-weiterer-schritt-zu-einer-smarten-datenplattform-ist-gemacht/"
+      ],
+      "lat": 49.898,
+      "lon": 10.902,
+      "notes": "Kommunale Quelle benennt die Dienstleister und Aufgaben der CORE-2-Entwicklung.",
+      "evidence": "customer_and_provider",
+      "mock": false
+    },
+    {
+      "id": "owl-it",
+      "title": "Datenplattform und CORE-Einführung OWL-IT",
+      "city": "Lemgo",
+      "state": "Nordrhein-Westfalen",
+      "coreVersion": "unspecified",
+      "status": "implementation",
+      "customerNames": [
+        "OWL-IT"
+      ],
+      "providerNames": [
+        "Stetig && Wandel"
+      ],
+      "sources": [
+        "https://stetigwandel.de/smart-city/"
+      ],
+      "lat": 52.028,
+      "lon": 8.901,
+      "notes": "Dienstleisterreferenz; kein produktiver Einsatz belegt.",
+      "evidence": "provider_reference",
+      "mock": false
+    },
+    {
+      "id": "core-community-v1",
+      "title": "CIVITAS/CORE 1.0–1.2 Entwicklung",
+      "city": "",
+      "state": "",
+      "coreVersion": "1",
+      "status": "development",
+      "customerNames": [
+        "Civitas Connect e.V."
+      ],
+      "providerNames": [
+        "Stetig && Wandel",
+        "KERNBLICK GmbH"
+      ],
+      "sources": [
+        "https://stetigwandel.de/smart-city/",
+        "https://www.kernblick.de/"
+      ],
+      "lat": null,
+      "lon": null,
+      "notes": "Architektur, Deployment, Dokumentation, Customizing.",
+      "evidence": "provider_reference",
+      "mock": false
+    },
+    {
+      "id": "core-v2-consortium",
+      "title": "Interkommunale CORE-2-Entwicklung",
+      "city": "Osnabrück",
+      "state": "Niedersachsen",
+      "coreVersion": "2-development",
+      "status": "awarded",
+      "customerNames": [
+        "Stadt Osnabrück",
+        "Stadt Bamberg",
+        "Stadt Haßfurt",
+        "Stadt Jena",
+        "Stadt Kassel",
+        "Stadt Mönchengladbach",
+        "Stadt Münster",
+        "Stadt Paderborn"
+      ],
+      "providerNames": [
+        "Frachtwerk GmbH",
+        "KERNBLICK GmbH",
+        "adesso SE",
+        "jut-so GmbH",
+        "Port Zero GmbH"
+      ],
+      "sources": [
+        "https://frachtwerk.de/frachtwerk-gewinnt-smart-city-ausschreibung/",
+        "https://smartcity.bamberg.de/ein-weiterer-schritt-zu-einer-smarten-datenplattform-ist-gemacht/"
+      ],
+      "lat": 52.279,
+      "lon": 8.047,
+      "notes": "Gemeinschaftliche Vergabe; mehrere Lose, nicht als acht Einzelvergaben zählen.",
+      "evidence": "customer_and_provider",
+      "mock": false
+    },
+    {
+      "id": "core-v2-security",
+      "title": "CORE 2 Security by Design",
+      "city": "",
+      "state": "",
+      "coreVersion": "2-development",
+      "status": "development",
+      "customerNames": [
+        "Civitas Connect e.V."
+      ],
+      "providerNames": [
+        "Port Zero GmbH"
+      ],
+      "sources": [
+        "https://port-zero.de/de/urban-data"
+      ],
+      "lat": null,
+      "lon": null,
+      "notes": "Sicherheits- und Datenschutzberatung laut Anbieter.",
+      "evidence": "provider_reference",
+      "mock": false
+    },
+    {
+      "id": "regensburg-sandbox-training",
+      "title": "Stadt Regensburg – CIVITAS/CORE-Schulung und Sandbox",
+      "city": "Regensburg",
+      "state": "Bayern",
+      "coreVersion": "unspecified",
+      "status": "completed",
+      "customerNames": [
+        "Stadt Regensburg"
+      ],
+      "providerNames": [
+        "Stetig && Wandel"
+      ],
+      "sources": [
+        "https://stetigwandel.de/smart-city/#referenzen"
+      ],
+      "lat": 49.014,
+      "lon": 12.101,
+      "notes": "Juli–September 2024: CIVITAS/CORE-Sandbox, zweitägige Schulung und Unterstützung bei Anwendungsfällen.",
+      "evidence": "provider_reference",
+      "mock": false
+    },
+    {
+      "id": "bonn-platform-training",
+      "title": "Bonn – CORE-Plattform, Add-ons und Schulungen",
+      "city": "Bonn",
+      "state": "Nordrhein-Westfalen",
+      "coreVersion": "unspecified",
+      "status": "ongoing_as_listed",
+      "customerNames": [
+        "Bundesstadt Bonn"
+      ],
+      "providerNames": [
+        "Stetig && Wandel"
+      ],
+      "sources": [
+        "https://stetigwandel.de/smart-city/#referenzen"
+      ],
+      "lat": 50.737,
+      "lon": 7.098,
+      "notes": "CORE-basiertes Urban Data Management; Masterportal-Add-ons, Deployment für über 20 Fachverfahren und Schulungen. Anbieter nennt Laufzeit seit Februar 2023.",
+      "evidence": "provider_reference",
+      "mock": false
+    }
+  ]
+}

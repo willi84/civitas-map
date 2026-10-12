@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SWO Netz GmbH",
+    "city": "Osnabrück",
+    "postalCodes": [],
+    "geometry": null,
+    "status": "missing",
+    "note": "Keine verifizierte PLZ-Versorgungsgebietsgeometrie vorhanden"
+  },
+  {
+    "name": "Stadtwerke Gießen",
+    "city": "Gießen",
+    "postalCodes": [],
+    "geometry": null,
+    "status": "missing",
+    "note": "Keine verifizierte PLZ-Versorgungsgebietsgeometrie vorhanden"
+  },
+  {
+    "name": "Westfalen Weser",
+    "city": "Paderborn",
+    "postalCodes": [],
+    "geometry": null,
+    "status": "missing",
+    "note": "Versorgungsgebiet ist nicht identisch mit einer PLZ-Grenze"
+  }
+]
