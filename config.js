@@ -14,6 +14,20 @@ export const CONFIG = {
     procurements:  { tabName: 'Öffentliche Aufträge', tabID: 208432178 },
     international: { tabName: 'International',        tabID: 953372847 },
     areas:         { tabName: 'Versorgungsgebiete',   tabID: 855637359 },
-    metrics:       { tabName: 'Kennzahlen',           tabID: 445934490 }
+    metrics:       { tabName: 'Kennzahlen',           tabID: 445934490 },
+    technologies:  { tabName: 'civitas_datenportal_technologien', tabID: null }
   }
+};
+
+// V3: Produkt-Logos von den jeweiligen Projekt-/Produktseiten.
+// Externe Bilddateien werden direkt vom Anbieter geladen; bei Fehlern erscheint das Kürzel.
+// Optional können die URLs durch lokal gespeicherte /assets/*.svg ersetzt werden.
+export const TECHNOLOGY_LOGOS = {
+  'CIVITAS/CORE': 'https://civitasconnect.digital/favicon.ico',
+  'Masterportal': 'https://raw.githubusercontent.com/Dataport/masterportal/master/src/assets/img/Logo_Masterportal.svg',
+  'Piveau': 'https://doc.piveau.io/favicon.ico',
+  'CKAN': 'https://raw.githubusercontent.com/ckan/ckan/master/ckan/public/base/images/ckan-logo.png',
+  'DKAN': 'https://getdkan.org/favicon.ico',
+  'OpenDataSoft': 'https://www.opendatasoft.com/favicon.ico',
+  'ArcGIS': 'https://www.arcgis.com/favicon.ico',
 };

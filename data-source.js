@@ -28,7 +28,7 @@ function normalizeOrg(r,kind){return {id:r.id,name:r.name,url:r.website,city:r.c
 function normalizeProject(r){return {id:r.id,title:r.name,city:r.city,state:r.state,lat:num(r.lat),lon:num(r.lon),coreVersion:r.coreVersion,status:r.status,customerNames:split(r.customerNames),providerNames:split(r.providerNames),sources:split(r.sources).length?split(r.sources):[r.source].filter(Boolean),notes:r.notes,evidence:r.evidence,mock:bool(r.mock),sheetReference:sheetRef('projects',r)}}
 function normalizeProcurement(r){return {id:r.id,title:r.name,buyer:r.buyer,city:r.city,state:r.state,postalCodes:split(r.postalCodes),lat:num(r.lat),lon:num(r.lon),version:r.coreVersion,status:r.status,publishedAt:r.publishedAt,deadline:r.deadline,tedId:r.tedId,lot:r.lot,source:r.source,notes:r.notes,evidence:r.evidence,sheetReference:sheetRef('procurements',r)}}
 async function tab(kind){const name=CONFIG.tabs[kind]?.tabName;const url=`https://docs.google.com/spreadsheets/d/${encodeURIComponent(CONFIG.googleSheetsId.trim())}/gviz/tq?tqx=out:csv&sheet=${encodeURIComponent(name)}`;const response=await fetch(url,{cache:'no-store'});if(!response.ok)throw Error(`${name}: HTTP ${response.status}`);const body=await response.text();if(/^\s*<(!doctype|html)/i.test(body))throw Error(`${name}: Freigabe fehlt`);return parseCSV(body).filter(x=>Object.values(x).some(v=>String(v).trim()))}
-async function local(name){dataOrigins.set(name,`Lokal: data/${name}.json`);const r=await fetch(`./data/${name}.json`);if(!r.ok)throw Error(`${name}: ${r.status}`);return r.json()}
+async function local(name){if(name==='technologies'){dataOrigins.set(name,'Lokal: data/civitas_datenportal_technologien.csv');const response=await fetch('./data/civitas_datenportal_technologien.csv');if(!response.ok)throw Error('Technologie-CSV: '+response.status);return parseCSV(await response.text())}dataOrigins.set(name,`Lokal: data/${name}.json`);const r=await fetch(`./data/${name}.json`);if(!r.ok)throw Error(`${name}: ${r.status}`);return r.json()}
 export async function loadData(name){if(!CONFIG.googleSheetsId?.trim())return local(name);
  try{
  dataOrigins.set(name,'Google Sheets');
@@ -42,6 +42,7 @@ export async function loadData(name){if(!CONFIG.googleSheetsId?.trim())return lo
  if(name==='projects')return {records:(await tab('projects')).map(normalizeProject)};
  if(name==='procurements')return {records:(await tab('procurements')).map(normalizeProcurement)};
  if(name==='service-areas')return (await tab('areas')).map(r=>({name:r.name,city:r.city,postalCodes:split(r.postalCodes),status:r.status,note:r.notes,geometry:r.geometry?JSON.parse(r.geometry):null}));
+ if(name==='technologies')return (await tab('technologies')).map(r=>({...r,sheetReference:sheetRef('technologies',r)}));
  if(name==='metrics')return Object.fromEntries((await tab('metrics')).map(r=>[r.key, /^-?\d+(\.\d+)?$/.test(r.value)?Number(r.value):r.value]));
  return local(name);
  }catch(e){console.warn('Google Sheets nicht erreichbar; lokaler Fallback',name,e);if(!CONFIG.fallbackToLocal)throw e;return local(name)}
